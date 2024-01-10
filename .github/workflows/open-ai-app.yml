@@ -45,8 +45,6 @@ jobs:
           
       - name: 🔍 Diagnostics
         run: |
-          ls ./src
-          ls ./src/.next
           ls ./site-deploy
 
       - name: ⬆️ Publish Next Application artifact
